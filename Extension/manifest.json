@@ -1,0 +1,12 @@
+{
+    "name": "LinkedIn No Signin",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "Browse LinkedIn without signing in",
+    "content_scripts": [
+    {
+      "matches": ["http://*.linkedin.com/*", "https://*.linkedin.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
